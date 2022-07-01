@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+.title, .section{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
