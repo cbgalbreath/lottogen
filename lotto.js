@@ -3,8 +3,6 @@ const results = [];
 lottoTexasResults();
 displayResults();
 
-console.log(results);
-
 // gets 6 numbers
 function lottoTexasResults(){
     
@@ -38,7 +36,6 @@ function refresh(){
     document.getElementById('lotto-texas-results').innerHTML = " ";
     lottoTexasResults();
     displayResults();
-    console.log(results);
 }
 
 //gets a random number
