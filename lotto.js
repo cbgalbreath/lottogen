@@ -1,6 +1,11 @@
-const game = [{name: "Lotto Texas", balls: 6, numbers: 54, start: 1, duplicates: false, bonusBall: false},
+const game = [{name: "PowerBall", balls: 5, numbers: 69, start: 1, duplicates: false, bonusBall: true, bonusNumbers: 26},
+{name: "Mega Millions", balls: 5, numbers: 70, start: 1, duplicates: false, bonusBall: true, bonusNumbers: 25},
+{name: "Lotto Texas", balls: 6, numbers: 54, start: 1, duplicates: false, bonusBall: false},
+{name: "Texas Two Step", balls: 4, numbers: 35, start: 1, duplicates: false, bonusBall: true, bonusNumbers: 35},
 {name: "Pick 3", balls: 3, numbers: 10, start: 0, duplicates: true, bonusBall: false},
-{name: "PowerBall", balls: 5, numbers: 69, start: 1, duplicates: false, bonusBall: true, bonusNumbers: 26}];
+{name: "Daily 4", balls: 4, numbers: 10, start: 0, duplicates: true, bonusBall: false},
+{name: "Cash 5", balls: 5, numbers: 35, start: 1, duplicates: false, bonusBall: false},
+{name: "All or Nothing", balls: 12, numbers: 24, start: 1, duplicates: false, bonusBall: false}];
 
 const allResults = [];
 const allBonus = [];
