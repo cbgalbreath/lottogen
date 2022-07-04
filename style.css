@@ -1,12 +1,17 @@
 body{
     margin: 0;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 h1 {
     text-align: center;
+    font-size: 50px;
 }
 
 .title{
     text-align: center;
+    font-size: 30px;
 }
 
 .container{
@@ -18,14 +23,72 @@ h1 {
 .result-container{
     display: flex;
     flex-direction: column;
+    width: 60%;
+    border-style: dotted;
 }
 .results{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ball, .bonus{
+    font-size: 60px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    padding: 10px;
+}
+
+.ball{
+    color: black;
+    background-color: white;
 }
 
 .bonus{
-    color: red;
+    background-color: red;
+    color: white;
+}
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.refresh-all{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media (max-width: 500px){
+    h1{
+        font-size: 30px;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+
+    .ball, .bonus{
+        width: 25px;
+        height: 25px;
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 1000px){
+
+    .ball, .bonus{
+        width: 50px;
+        height: 50px;
+        font-size: 40px;
+    }
 }
