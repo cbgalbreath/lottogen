@@ -77,7 +77,7 @@ function lottoResults(gameObj){
     }
     allResults.push(results);
     if(gameObj.bonusBall){
-        bonus = lottoBall(gameObj.numbers, gameObj.start); //assigns a number to bonus ball
+        bonus = lottoBall(gameObj.bonusNumbers, gameObj.start); //assigns a number to bonus ball
     }
     allBonus.push(bonus);
 }
