@@ -77,9 +77,9 @@ h1 {
     }
 
     .ball, .bonus{
-        width: 25px;
-        height: 25px;
-        font-size: 20px;
+        width: 15px;
+        height: 15px;
+        font-size: 10px;
 
     }
 }
