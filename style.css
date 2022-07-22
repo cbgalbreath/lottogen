@@ -67,7 +67,7 @@ h1 {
     margin: 10px;
 }
 
-@media (max-width: 500px) or (min-width: 320px){
+@media (max-width: 800){
     h1{
         font-size: 30px;
     }
@@ -84,7 +84,7 @@ h1 {
     }
 }
 
-@media (min-width:500px ){
+@media (max-width: 1500px ){
 
     .ball, .bonus{
         width: 50px;
